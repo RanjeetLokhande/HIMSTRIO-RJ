@@ -1,26 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script>
-        // Load the head content dynamically
-        fetch('head.html')
-            .then(response => response.text())
-            .then(data => {
-                document.head.innerHTML = data;
-            });
-    </script>
+	<script>
+		// Load the head content dynamically
+		fetch('head.html')
+			.then(response => response.text())
+			.then(data => {
+				document.head.innerHTML = data;
+			});
+	</script>
 </head>
+
 <body>
 
-    <!-- <h1>new</h1> -->
-    <!-- Header Area -->
+	<!-- <h1>new</h1> -->
+	<!-- Header Area -->
 	<div id="header-placeholder"></div>
 	<!-- ---ranjeet--- -->
 	<!-- End Header Area -->
 
 
+	<!-- About Us-->
 
-    <!-- Footer Area -->
+
+<section class="py-5 bg-white">
+  <div class="container">
+    <!-- Main About Section -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6">
+        <img src="img/about-img.jpg" alt="About TCiS" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-lg-6">
+        <h6 class="text-uppercase text-primary">About Us</h6>
+        <h2 class="fw-bold mb-3">Empowering Healthcare Through <span class="text-primary">Innovative IT Solutions</span></h2>
+        <p class="text-muted">
+          Founded in 2012, <strong>Trio Corporation IT Services (TCiS)</strong> has led the way in delivering scalable, secure, and smart IT solutions for the healthcare industry. Headquartered in Pune, with offices in Mumbai, Ahmedabad, and Delhi, we help healthcare institutions undergo digital transformation with confidence.
+        </p>
+        <ol class="list-unstyled text-muted">
+          <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Smart & scalable hospital software</li>
+          <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Trusted by 220+ hospitals</li>
+          <li><i class="bi bi-check-circle-fill text-primary me-2"></i> NABH & HIPAA compliant</li>
+        </ol>
+        <a href="mailto:info@triocorporation.in" class="btn btn-primary mt-3">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Leadership and Vision -->
+    <!-- <div class="row text-center mb-5">
+      <div class="col-md-4 mb-4">
+        <div class="bg-light p-4 rounded shadow-sm h-100">
+          <h6 class="text-primary">Founder & Director</h6>
+          <h5 class="fw-semibold">Mr. Rahul Wanchoo</h5>
+          <p class="text-muted small">With over 15 years of expertise, Rahul leads TCiS in delivering HIMS Trio, a trusted solution used by hospitals nationwide.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bg-light p-4 rounded shadow-sm h-100">
+          <h6 class="text-primary">Vision</h6>
+          <p class="text-muted small">To drive progress with innovative tech that improves healthcare, empowers lives, and enables a smarter future.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bg-light p-4 rounded shadow-sm h-100">
+          <h6 class="text-primary">Mission</h6>
+          <p class="text-muted small">To deliver reliable and cost-effective IT solutions enabling operational excellence and business growth for our clients.</p>
+        </div>
+      </div>
+    </div> -->
+
+
+	<div class="row text-center mb-5">
+  <div class="col-md-4 mb-4">
+    <div class="bg-light p-4 rounded shadow-sm h-100">
+      <h6 class="text-primary fs-5 fw-semibold">Founder & Director</h6>
+      <h5 class="fw-bold fs-4">Mr. Rahul Wanchoo</h5>
+      <p class="text-muted fs-6" style="font-size: 1.05rem;">
+        With over 15 years of expertise, Rahul leads TCiS in delivering 
+        <strong>HIMS Trio</strong>, a trusted solution used by hospitals nationwide.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="bg-light p-4 rounded shadow-sm h-100">
+      <h6 class="text-primary fs-5 fw-semibold">Vision</h6>
+      <p class="text-muted fs-6" style="font-size: 1.05rem;">
+        To drive progress with innovative tech that improves healthcare, 
+        empowers lives, and enables a smarter future.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="bg-light p-4 rounded shadow-sm h-100">
+      <h6 class="text-primary fs-5 fw-semibold">Mission</h6>
+      <p class="text-muted fs-6" style="font-size: 1.05rem;">
+        To deliver reliable and cost-effective IT solutions enabling operational excellence 
+        and business growth for our clients.
+      </p>
+    </div>
+  </div>
+</div>
+
+    <!-- Product Description -->
+    <div class="mb-5">
+      <h3 class="fw-bold text-primary mb-3">Our Flagship Product – HIMS Trio</h3>
+      <p class="text-muted">
+        HIMS Trio is a robust and modular Hospital Information Management Software designed to digitize, simplify, and optimize every aspect of hospital operations. Whether it’s patient registration, billing, EMR, pharmacy, laboratory, or MIS reporting, our software offers 30+ seamlessly integrated modules to ensure end-to-end hospital automation.
+      </p>
+      <ul class="text-muted">
+        <li>• Eliminates paperwork and redundant processes</li>
+        <li>• Enhances data accuracy and accessibility</li>
+        <li>• Ensures compliance with NABH and HIPAA standards</li>
+        <li>• Improves patient care and administrative control</li>
+        <li>• Enables cloud-based and on-premise deployment</li>
+      </ul>
+      <p class="text-muted">Our solution is fully customizable for clinics, diagnostic centers, and multi-specialty hospitals.</p>
+    </div>
+
+    <!-- Core Values -->
+    <div class="mb-5">
+      <h4 class="fw-bold text-primary mb-3">Our Core Values</h4>
+      <ul class="text-muted">
+        <li>• <strong>Innovation:</strong> We believe in pushing boundaries through technology</li>
+        <li>• <strong>Integrity:</strong> Ethical business practices and transparent operations</li>
+        <li>• <strong>Customer Centricity:</strong> Our clients are at the heart of everything we do</li>
+        <li>• <strong>Excellence:</strong> Commitment to quality, performance, and long-term results</li>
+        <li>• <strong>Collaboration:</strong> A culture of teamwork, respect, and shared success</li>
+      </ul>
+    </div>
+
+    <!-- Industry Footprint -->
+    <div class="mb-5">
+      <h4 class="fw-bold text-primary mb-3">Our Industry Footprint</h4>
+      <ul class="text-muted">
+        <li>• <strong>Clients Served:</strong> 1,500+ across healthcare, pharma, telecom, and public sectors</li>
+        <li>• <strong>Installations:</strong> 220+ HIMS Trio implementations and growing</li>
+        <li>• <strong>Employees:</strong> A dedicated team of 50+ experienced IT professionals</li>
+        <li>• <strong>Presence:</strong> Active in major Indian metros with expansion plans in progress</li>
+      </ul>
+      <p class="text-muted">Our team combines domain expertise with a passion for innovation, ensuring every solution aligns with real-world healthcare challenges.</p>
+    </div>
+
+    <!-- Future Vision CTA -->
+    <div style="background-color: #f08718; color: #ffffff;" class="p-4 rounded-3 shadow text-center">
+  <h5 style="color: #ffffff;" class="fw-bold mb-3">Let’s Build the Future of Healthcare Together</h5>
+  <p class="mb-2" style="color: #ffffff;">
+    Whether you're a single-specialty clinic or a multi-location hospital chain, 
+    <strong style="color: #ffffff;">HIMS Trio</strong> is your trusted partner in healthcare automation.
+  </p>
+  <p class="mb-3" style="color: #ffffff;">
+    Our team is here to guide you from consultation to deployment and beyond.
+  </p>
+  <p class="mb-0" style="color: #ffffff;">
+    📞 Contact us at <strong style="color: #ffffff;">+91 902 10 23456</strong><br>
+    📧 Email: 
+    <a href="mailto:info@triocorporation.in" style="color: #ffffff; text-decoration: underline;">
+      info@triocorporation.in
+    </a>
+  </p>
+</div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+	<!-- Footer Area -->
 	<div id="footer-placeholder"></div> <!-- Placeholder for Footer -->
 	<!-- ---ranjeet--- -->
 	<!--/ End Footer Area -->
@@ -78,4 +227,5 @@
 	</script>
 
 </body>
+
 </html>
