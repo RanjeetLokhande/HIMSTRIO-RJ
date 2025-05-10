@@ -808,7 +808,7 @@ body {
 
 .schedule .schedule-inner {
 	position: relative;
-	transform: translateY(-25%);
+	transform: translateY(-20%);
 	z-index: 9;
 }
 
