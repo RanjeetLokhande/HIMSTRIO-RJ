@@ -1164,13 +1164,15 @@ body {
 }
 
 .why-choose .choose-right {
-	height: 100%;
+	height: 50%;
+	/* height: 100%; */
 	width: 100%;
 	background-image: url('img/video-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
+	margin-top: 30%;
 }
 
 .why-choose .choose-right .video {
@@ -4848,38 +4850,80 @@ body {
 ===========================*/
 
 .module-box {
-        background: #ffffff;
-        border-radius: 10px;
-        padding: 15px 20px;
-        margin-bottom: 20px;
-        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-        transition: 0.3s;
-    }
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+	transition: 0.3s;
+}
 
-    .module-box a {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-decoration: none;
-        font-weight: 600;
-        color: #007bff;
-        font-size: 16px;
-    }
+.module-box a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	font-weight: 600;
+	color: #007bff;
+	font-size: 16px;
+}
 
-    .module-box a i:first-child {
-        margin-right: 8px;
-        font-size: 18px;
-    }
+.module-box a i:first-child {
+	margin-right: 8px;
+	font-size: 18px;
+}
 
-    .collapse-content {
-        padding-top: 10px;
-        padding-left: 30px;
-        font-size: 14px;
-        color: #333;
-    }
+.collapse-content {
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #333;
+}
 
-    .collapse-content strong {
-        display: block;
-        margin-bottom: 6px;
-        color: #000;
-    }
+.collapse-content strong {
+	display: block;
+	margin-bottom: 6px;
+	color: #000;
+}
+
+.trusted-section {
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.trusted-section h2 {
+	color: #2c3e50;
+	font-size: 24px;
+}
+
+.swiper {
+	width: 100%;
+	padding: 40px 0;
+}
+
+.swiper-slide {
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	width: 200px;
+	height: 200px;
+	/* Square shape */
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	/* Keep aspect ratio inside square */
+	border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+	.swiper-slide {
+		width: 140px;
+		height: 140px;
+	}
+}
